@@ -1,0 +1,162 @@
+
+
+<?php echo $this->doctype()?>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initialscale=1.0"/>
+    <?php
+    echo $this->headMeta().PHP_EOL;
+    echo $this->headTitle().PHP_EOL;
+    echo $this->headLink().PHP_EOL;
+    echo $this->headScript().PHP_EOL;
+    ?>
+</head>
+
+<body class="container-fluid">
+
+<!--       Header      -->
+<div class="header row">
+
+    <div class="row">
+        <div class="col-lg-3">
+
+            <div class="logorse">
+
+                <img  src="<?php echo $this->baseUrl().'/images/logomch.png';?>"/>
+            </div>
+        </div>
+
+        <div class="col-lg-4">
+            <div class="software-title">
+                <P>MCH Handbook </P>
+            </div>
+
+
+            <div class="description">
+                <p>Computing solution for maternal and child health</p>
+            </div>
+        </div>
+
+        <div class="col-lg-5">
+
+
+
+
+
+
+        </div>
+    </div>
+</div>
+
+<!--       Header      -->
+
+
+
+<!--       Content      -->
+<div class="row content">
+    <div class="col-sm-2">
+
+        <div class="menuleft">
+            <div class="menu">
+                <div id="MainMenu">
+
+                    <div class="list-group panel">
+                        <a href="#demo3" class="list-group-item list-group-item-success" data-toggle="collapse" data-parent="#MainMenu">USER MANUAL</a>
+                        <div class="collapse" id="demo3">
+                            <a href="#SubMenu1" class="list-group-item" >NOUVEAU </a>
+
+                            <a href="javascript:;" class="list-group-item">Plaintes</a>
+                            <a href="javascript:;" class="list-group-item">Investigations</a>
+                            <a href="javascript:;" class="list-group-item">Resultats Plaintes</a>
+                        </div>
+
+
+
+
+                        <a href="#demo4" class="list-group-item list-group-item-success" data-toggle="collapse" data-parent="#MainMenu">ABOUT THE SOFTWARE</a>
+                        <div class="collapse" id="demo4">
+                            <a href="" class="list-group-item">Nouveau</a>
+                            <a href="" class="list-group-item">Investigations</a>
+                            <a href="" class="list-group-item">Rapports d'investigations</a>
+                        </div>
+
+
+
+
+
+
+
+
+
+
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="menuimage">
+
+                <img  src="<?php echo $this->baseUrl().'/images/imagedroite.png'?>"/>
+            </div>
+
+        </div>
+
+      </div>
+    <div class="col-sm-6">
+        <div id="logged-in-as"><?php echo $this->loggedInAs(); ?></div>
+        <div class="contenu">
+            <?php echo $this->layout()->content; ?>
+        </div>
+
+    </div>
+    <div class="col-sm-4">
+
+    </div>
+</div>
+
+
+
+
+
+<!--       Content      -->
+
+
+
+
+
+
+<!--       Footer      -->
+
+<div class="footer">
+
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="bar-footer">
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="text-footer">
+                <p> 2017 miyagi university student</p>
+            </div>
+        </div>
+    </div>
+
+
+
+</div>
+
+<!--       Footer      -->
+
+
+
+
+
+</body>
+</html>

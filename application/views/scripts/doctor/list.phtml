@@ -1,0 +1,83 @@
+
+<?php
+echo $this->headMeta().PHP_EOL;
+echo $this->headTitle().PHP_EOL;
+echo $this->headLink().PHP_EOL;
+echo $this->headScript().PHP_EOL;
+?>
+
+<ul class="nav nav-tabs">
+    <li class="nouveau"><a href="#">Doctor</a></li>
+    <li><a href="#">Draft</a></li>
+    <li><a href="#">Validate</a></li>
+    <li class="#"><a href="<?php echo $this->url(array('controller' => 'doctor', 'action' => 'add'), null, true) ?>">Add New</a></li>
+</ul>
+
+<div class="filter">
+    <table>
+        <tr>
+            <td><p>Reg Num</p></td>
+            <td> <p>City / Prefecture</p></td>
+            <td> <p>Speciality</p></td>
+            <td> <p>Start Date</p></td>
+            <td> <p>End Date</p></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><input type="text" class="login"/></td>
+            <td><input type="text" class="login"/></td>
+            <td><input type="text" class="login"/></td>
+            <td><input type="text" class="login"/></td>
+            <td><input type="text" class="login"/></td>
+            <td><button  class="research">Go</button></td>
+        </tr>
+
+    </table></div>
+ <table class="table table-striped">
+<thead>
+     <th></th>
+     <th>Name</th>
+     <th>Family Name</th>
+     <th>Email</th>
+     <th>Speciality</th>
+     <th>Phone Number</th>
+
+
+     <th></th>
+     <th></th>
+     <th></th>
+
+</thead>
+<?php foreach ($this->doctor as $doctor) : ?>
+<tr>
+    <td height="25"><input type="radio"/></td>
+    <td height="25"><?php echo $this->escape($doctor->name);?></td>
+    <td height="25"><?php echo $this->escape($doctor->family_name);?></td>
+    <td height="25"><?php echo $this->escape($doctor->email);?></td>
+    <td height="25"><?php echo $this->escape($doctor->id);?></td>
+    <td height="25"><?php echo $this->escape($doctor->phone);?></td>
+    <td height="25"> <a href="<?php echo $this->url(array('controller'=>'doctor', 'action'=>'update', 'id'=>$doctor->id));?>"><img  src="<?php echo $this->baseUrl().'/images/icones/file.png';?>"/></a></td>
+    <td height="25"> <a href="<?php echo $this->url(array('controller'=>'doctor', 'action'=>'update', 'id'=>$doctor->id));?>"><img  src="<?php echo $this->baseUrl().'/images/icones/edit.png';?>"/></a></td>
+    <td height="25"> <a href="<?php echo $this->url(array('controller'=>'doctor', 'action'=>'delete', 'id'=>$doctor->id));?>"><img  src="<?php echo $this->baseUrl().'/images/icones/delete.png';?>"/></a></td>
+
+
+</tr>
+<?php endforeach; ?>
+
+</table>
+
+<div class="row" style="width:100%; margin: 0;">
+    <div class="foot-elements">
+        <div class="details-head">
+            Information Detail
+        </div>
+        <div class="details-body">
+
+            <div class="detail-content">
+
+
+            </div>
+
+        </div>
+    </div>
+</div>

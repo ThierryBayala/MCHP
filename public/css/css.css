@@ -1,0 +1,312 @@
+html *
+{
+
+
+    font-family: Roboto Slab,sans-serif !important;
+}
+
+.filter{
+    width: 100%;
+    background-color: #E3F6CE;
+    border: 1px solid #3eac5d;
+    padding: 5px;
+    margin-top: 2px;
+    margin-bottom: 15px;
+
+}
+.software-title{
+    padding-top: 5px;
+    font-family: 'Roboto Slab', sans-serif;
+font-size: 36px;
+
+}
+.header{
+    border-bottom: 2px solid #3eac5d;
+    background-color: #F8F8F8;
+    padding-bottom: 20px;
+
+}
+.current-user{
+    font-weight: bold;
+
+}
+
+.log-out a,.log-out a:hover{
+
+    color: red;
+    text-decoration: none;
+
+}
+
+
+
+.content{
+
+    margin-top: 10px;
+
+}
+.description{
+    font-family: 'Roboto Slab', sans-serif;
+    line-height: 24px;
+    font-size: 16px;
+    padding-bottom: 0;
+    color: #999999;
+}
+
+
+    .health{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 0px;
+    margin-top: -10px;
+    }
+
+
+
+
+
+
+
+    .login{
+    font-size: 12px;
+    margin-top: 5px;
+    margin-right: 5px;
+    width: 200px;
+    height: 25px;
+    border:1px solid #3eac5d;
+
+    }
+
+.filter-field{
+    font-size: 12px;
+    margin-top: 5px;
+    margin-right: 5px;
+    width: 200px;
+    height: 25px;
+    border:1px solid #3eac5d;
+
+}
+.research{
+
+    margin-top: 5px;
+    height: 25px;
+width: 45px;
+    color: #ffffff;
+    background-color: #3eac5d;
+    font-weight: bold;
+
+    border:0px;
+}
+
+
+
+
+
+
+
+    .button-login{
+    margin-top: 5px;
+    width: 100px;
+    color: #ffffff;
+    background-color: #3eac5d;
+    font-weight: bold;
+    padding: 5px;
+
+    border:0px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .logorse{
+    margin-left: 50px;
+    padding-top: 15px;
+
+
+    }
+    .user-information{
+    margin-top: 3px;
+    float: left;
+    }
+
+
+
+
+
+
+    .band-content p{
+    text-align: center;
+    }
+
+
+    .intitule, .quantite{
+    display: inline-block;
+    }
+
+
+    .div-container{
+    width: auto;
+    margin: auto;
+    }
+
+
+
+
+
+    .td-info{
+    font-weight: bold;
+    color: #000000;
+     }
+
+    .list-inline li {
+        background: #1a80a2;
+        color: #FFFFFF;
+        font-weight: bold;
+        padding: 5px;
+    }
+
+    .list-inline a:link,.list-inline a:hover,.list-inline a:visited{
+    color: #FFFFFF;
+    }
+
+
+
+    ul.list-inline li.selected{
+        background-color: #424242;
+    }
+
+
+.statistic{
+
+background-color: #E3F6CE;
+border: 1px solid #3eac5d;
+width: 95%;
+
+padding-bottom: 50px;
+
+
+}
+.separator{
+
+    color: #3eac5d;
+    font-weight: bold;
+
+}
+.text-box{
+
+    padding-left:5px ;
+    padding-top: 5px;
+}
+    .head-box{
+
+        background-color:#3eac5d ;
+        color: white;
+        width: 90px;
+        font-size: 12px;
+        padding: 5px;
+
+    }
+
+    .number-box{
+
+
+        color: #d20c58; ;
+    }
+.menuleft{
+
+float:left;
+margin-right: 0px;
+margin-left: 5px;
+
+}
+
+
+
+.menuimage{
+    width:100%;
+    height:100%;
+    border-bottom:10px solid #3eac5d;
+    margin-top: -19px;
+
+
+}
+
+.footer{
+
+    
+position:fixed;
+   left:0px;
+   bottom:0px;
+   height:30px;
+   width:100%;
+   background:#F8F8F8;
+border-top: 1px solid #3eac5d;
+
+
+
+}
+
+* html .footer {
+   position:absolute;
+   top:expression((0-(footer.offsetHeight)+(document.documentElement.clientHeight ? document.documentElement.clientHeight : document.body.clientHeight)+(ignoreMe = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop))+'px');
+}
+
+.bar-footer{
+    width: 90%;
+    margin: auto;
+    height: 4px;
+   text-align: right;
+    background:#3eac5d ;
+
+}
+.text-footer{
+padding-top: 5px;
+    margin-right: 5%;
+float: right;
+
+color: #000;
+
+
+
+}
+a.list-group-item.list-group-item-success{
+    color:#fff;
+    border-bottom:4px solid #5ac33a;
+    border-top:1px solid #fff;
+    border-right: 0px;
+    border-radius: 0px;
+
+    border-left: 0px;
+    background: #3eac5d;
+
+}
+
+.list-group-item:first-child {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+#demo3 a,#demo4 a{
+background:#E3F6CE;
+color:#000;
+    border-radius: 0px;
+}
+
+
+
+
+.line-p p{
+display: inline-block;
+
+}
